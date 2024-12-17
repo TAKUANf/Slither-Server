@@ -1,0 +1,27 @@
+{
+  "name": "slither-server",
+  "description": "A Server for Slither.io",
+  "version": "0.0.5",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RowanHarley/Slither-Server"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "object-keys": "^1.0.9",
+    "or": "^0.2.0",
+    "semver": "^5.1.0",
+    "ws": "*"
+  },
+  "packageDependencies": {},
+  "scripts": {
+    "start": "node ./index.js",
+    "lint": "eslint ./index.js ./config/**/*.js ./src/**/*.js"
+  },
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-config-standard": "^5.3.1",
+    "eslint-plugin-standard": "^1.3.2",
+    "standard": "^7.1.2"
+  }
+}
