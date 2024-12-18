@@ -1,5 +1,5 @@
 var config = require('./config/config.js');
-var spawn = require("./src/spawn.js");
+//var spawn = require("./src/spawn.js");
 var pkg = require('./package.json');
 var WebSocket = require('ws').Server;
 var Snake = require('./src/entities/snake');
