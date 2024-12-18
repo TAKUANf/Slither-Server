@@ -1,5 +1,5 @@
 module.exports = {
-    port: 8081, // 修正: ポート番号を8081に変更
+    port: 8081,
     bots: 0, // Not Implemented
     maxConnections: 100,
 	highscoreName: "How to change Highscore Msg",
